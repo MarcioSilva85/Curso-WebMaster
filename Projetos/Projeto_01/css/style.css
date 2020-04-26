@@ -1,0 +1,316 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html,body{
+	height: 100%;
+}
+
+
+.clear{
+	clear: both;
+}
+
+.center{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.header{
+	padding: 0 2%; 
+	width: 100%;
+	height: 60px;
+	background-color: #212343;
+}
+
+.header img{
+	margin: 15px;
+}
+
+.container-banner{
+	padding-top: 0 2%;
+	width: 100%;
+	height: 557px;
+	background-image:url('../images/header_bg.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.container-banner > .center{
+	height: 100%;
+	max-width: 1280px;	
+}
+
+.form{
+	padding: 5px;
+	text-align: center;
+	width: 400px;
+	height: 600px;
+	float: right;
+	position: relative;
+	top: -15px;
+	right: 30px;
+	border: 7px solid rgba(120,120,120,0.7);
+	background-color: rgb(255,255,255);
+	background-clip: padding-box;	
+	
+}
+
+.form h2{
+	padding: 10px 5px;
+	font-weight: normal;
+	color: #999999;
+	
+}
+
+.input-container{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.input-container span, .form p{
+	display: inline-block;
+	width: 100%;
+	color: #BBBBBB;
+	font-size: 17px;
+	
+}
+
+.form p{
+	display: inline-block;
+	width: 100%;
+	color: #BBBBBB;
+	font-size: 17px;
+	margin: 20px 0;
+}
+
+.input-container input[type=text]{
+	margin-top: 5px;
+	width: 344px;
+	height: 55px;
+	border: 1px solid #ccc;
+}
+
+.form .input-submit{
+	text-align: center;
+}
+
+.form input[type=submit]{
+	border: 0;
+	color: white;
+	font-size: 25px;
+	width: 288px;
+	height: 56px;
+	display: inline-block;
+	background: #212343;
+	cursor: pointer;
+	border-bottom: 4px solid #4A5097;
+
+
+}
+
+.form input[type=submit]:hover{
+	background-color: #4A5097
+
+}
+
+.container-list{
+	padding: 30px;
+	margin-top: 100px;
+	margin-left: 30px;
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: rgba(33,35,67,0.7);
+}
+
+.container-list ul{
+	list-style-position: inside;
+	width: 100%;
+}
+
+.container-list li{
+	margin-top: 18px;
+	color: white;
+}
+
+.container-text {
+	padding: 40px 2%;
+	text-align: center;
+	background-color: #cccc;
+	background-size: cover;
+	background-position: center;
+}
+
+.container-text h2{
+	font-weight: normal;
+		
+}
+
+.container-text p{
+	width: 100%;
+	max-width: 768px;
+	display: inline-block;
+	text-align: justify;
+	margin: 15px 0;
+
+}
+
+.arrow{
+	position: relative;
+	top: -20px;
+	left: 50%;
+	margin-left: -20px;
+	width: 40px;
+	height: 40px;
+	background-image: url(../images/arrow.png);
+	background-size: 100% 100%;
+}
+
+
+.container-title{
+	padding: 40px;
+	text-align: center;
+
+}
+.container-title h2{
+	width: 100%;
+	font-weight: normal;
+	font-size: 30px;
+	color: #462663;
+}
+
+.container-colum{
+	margin-top: 40px;
+}
+
+.container-colum{
+	text-align: center;
+}
+
+.container-imagem{
+	float: left;
+	width: 33.333%;
+	padding: 30px;
+	margin-bottom: 100px;
+}
+
+
+.container-text-1 p{
+	margin: 10px 30px;
+	text-align: justify;
+}
+
+.container-imagem{
+	padding: 10px 30px;
+}
+
+.container-imagem img{
+	width: 70px;
+}
+
+.footer{
+	border-top: 4px solid #888888;
+	padding: 20px 0;
+	text-align: center;
+	color: #878787;
+}
+
+.footer p{
+	margin-top: 8px;
+}
+
+
+@media screen and (max-width: 1024px){
+	.header{
+		padding: 15px 0; 
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	.header img{
+		margin: 0;
+
+	}	
+
+	.container-banner{
+		width: 100%;
+		padding: 40px 2%;
+		height: 900px;
+		text-align: center;
+	}
+
+	.container-list{
+		margin-top: 0;
+		padding: 15px;
+		float: none;
+		width: auto;
+		display: inline-block;
+		max-width: 500px;
+		height: auto;
+	
+	}
+
+	.form{
+		margin-top: 30px;
+		margin-right: -90px;
+		max-width: 400px;
+		padding: 10px;
+		width: auto;
+		height: auto;
+		display: inline-block;
+		float: none;
+		top: 0;
+	}
+
+	.container-text {
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		padding-left: 4%;
+		padding-right: 4%;
+		
+	}
+	
+}
+
+@media screen and (max-width: 700px){
+	.container-imagem{
+		float: none;
+		height: 250px;
+		width: 90%;
+		padding: 10px;
+		margin-top: 0;
+		margin-bottom: 5%;
+		display: inline-block;
+	}
+
+	.container-title{
+		display: inline-block;
+		width: 100%;
+		height: 100px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

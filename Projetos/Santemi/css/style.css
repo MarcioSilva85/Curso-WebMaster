@@ -1,0 +1,148 @@
+*{	
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	width: 100%;
+	height: auto;
+}
+
+.clear{
+	clear: both;
+}
+
+.topo{
+	float: left;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	background-color: #4300FA
+}
+
+.topo:hover{
+	animation-name: animacao_1;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animacao_1{
+	0%{
+		background-color: #4300FA;
+	}
+	25%{
+		background-color: purple;
+	}
+	50%{
+		background-color: red;
+	}
+	75%{
+		background-color: orange;
+	}
+	100%{
+		background-color: #4300FA;
+	}
+
+
+}
+
+.topo h1{
+	margin-left: 30%;
+	float: left;
+	font-family: Lobster;
+	font-weight: normal;
+	color: white;
+	font-size: 50px;
+
+}
+
+.line1{
+	padding-left: 25%;
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: lightblue;
+}
+
+.line1 h3{
+	float: left;
+	padding: 2px 0;
+	display: inline-block;
+	margin-right: 200px;
+	font-family: Lobster;
+	font-weight: normal;
+	color: black;
+	cursor: pointer;
+}
+
+
+.box1{
+	text-align: justify;
+	padding: 10px 25px;
+	display: inline-block;
+	width: 40%;
+	height: auto;
+	background-color: #3333;
+}
+
+.box1 h2{
+	font-family: lobster;
+	font-size: 40px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+.box1 p{
+	font-family: lobster;
+	font-size: 21px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.box1 h3{
+	font-family: Lobster;
+	font-size: 25px;
+	font-weight: normal;
+	margin-top: 40px;
+	padding-left: 270px;
+	text-align: right;
+}
+
+.box2{
+	float: right;
+	width: 60%;
+}
+
+.box2 img{
+	z-index: 2;
+	margin-top: -10px;
+	margin-left: 150px;
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+}
+.box2-fundo{
+	z-index: 1;
+	margin-top: -230px;
+	float: left;
+	width: 100%;
+	height: 180px;
+	background-color: #4300FA;
+}
+
+.box3{
+	display: inline-block;
+	float: right;
+	width: 45%;
+	margin-top: -260px;
+	margin-right: 40px;
+}
+
+.box3 img{
+	max-height: 260px;
+	max-width: 100%
+	
+}
+
+
